@@ -47,5 +47,5 @@ jobs:
     - name: Deploy Digital Ocean App  Plataform
       uses: digitalocean/app_action@v1.1.5
       with:
-        app-name: seashell-app
+        app-name: stingray-app
         token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
